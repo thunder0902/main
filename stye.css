@@ -295,13 +295,16 @@ section {
   }
   .about2 {
     font-size: 100px;
-    top: 5%;
-    left: 1%;
+    top: 10%;
+    left: 10%;
   }
 }
 @media screen and (max-width: 700px) {
   /* 여기에 390px 화면에 적합한 스타일을 추가하세요 */
   /* 예를 들어, 네비게이션 바의 폰트 크기를 조절할 수 있습니다. */
+  canvas {
+    display: none;
+  }
   .nav {
     left: 0;
     width: 100vw;
@@ -312,7 +315,7 @@ section {
   }
   .profile {
     top: 60%;
-    left: 48%;
+    left: 50%;
     width: 90%;
     height: 60vh;
   }
@@ -327,6 +330,9 @@ section {
     margin: auto;
   }
   #project {
-    margin-top: 100px;
+    margin-top: 50px;
+  }
+  .about2 {
+    top: 0%;
   }
 }
