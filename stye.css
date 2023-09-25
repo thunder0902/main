@@ -311,8 +311,10 @@ section {
     width: 100vw;
   }
   .profile {
-    left: 47%;
+    top: 60%;
+    left: 48%;
     width: 90%;
+    height: 60vh;
   }
   .profileBox1 {
     display: block;
@@ -323,5 +325,8 @@ section {
   }
   .imgBox {
     margin: auto;
+  }
+  #project {
+    margin-top: 100px;
   }
 }
