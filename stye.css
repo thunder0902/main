@@ -335,4 +335,7 @@ section {
   .about2 {
     top: 0%;
   }
+  .pBox {
+    height: 80vh;
+  }
 }
